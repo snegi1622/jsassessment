@@ -1,0 +1,51 @@
+Question 3: 
+{
+    "Restaurant":[{
+        "OmSweets": [{
+            "Name" : "SweetsShop",
+            "Phone" : 77234775,
+            "Rating" : 4,
+            "Address" : [{
+                "HouseNo" : 443,
+                "Street" : "Sector 23",
+                "Area" : "Gurgaon",
+                "City": "Gurgaon"
+            }]
+        }],
+        "RelianceFresh":[{
+            "Name" : "RelianceFresh",
+            "Phone" : 792507325,
+            "Rating" : 5,
+            "Address" : [{
+                "HouseNo" : 123,
+                "Street" : "Sector-21",
+                "Area" : "Gurgaon",
+                "City": "Gurgaon"
+            }]
+        }]
+    }]
+}
+
+Question 5: 
+var i = 0,j=0;
+
+for(i = 0; i < 5; i++){
+  for(j = 0; j <= i; j++){
+    document.write("*")
+  }
+  document.write("\n");
+}
+
+
+Question 6:
+var numArr = [1,2,3,4,5];
+
+for(var i = 0; i < numArr.length; i++){
+    numArr[i] = numArr[i] * 6;
+}
+
+numArr.push(48);
+
+numArr.splice(2,1);
+
+document.write(numArr);
