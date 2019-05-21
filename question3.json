@@ -1,0 +1,26 @@
+{
+    "Restaurant":[{
+        "OmSweets": [{
+            "Name" : "SweetsShop",
+            "Phone" : 77234775,
+            "Rating" : 4,
+            "Address" : [{
+                "HouseNo" : 443,
+                "Street" : "Sector 23",
+                "Area" : "Gurgaon",
+                "City": "Gurgaon"
+            }]
+        }],
+        "RelianceFresh":[{
+            "Name" : "RelianceFresh",
+            "Phone" : 792507325,
+            "Rating" : 5,
+            "Address" : [{
+                "HouseNo" : 123,
+                "Street" : "Sector-21",
+                "Area" : "Gurgaon",
+                "City": "Gurgaon"
+            }]
+        }]
+    }]
+}
