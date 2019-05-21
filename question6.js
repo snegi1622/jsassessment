@@ -4,6 +4,7 @@ for(var i = 0; i < numArr.length; i++){
     numArr[i] = numArr[i] * 6;
 }
 
+numArr.push(36);
 numArr.push(48);
 
 numArr.splice(2,1);
